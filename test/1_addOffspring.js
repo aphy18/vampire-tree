@@ -1,12 +1,12 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const Vampire = require('../vampire.js');
+const Vampire = require('../vampr.js');
 
 describe("Vampire", function() {
 
   let rootVampire;
-  beforeEach( function() {
+  beforeEach(function() {
     rootVampire = new Vampire("root");
   });
 
